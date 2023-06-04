@@ -2,16 +2,18 @@
 
 This is a basic flashrom/serprog compatible SPI flash reader/writer for the Raspberry Pi Pico.
 
+Pinout changed for easier breadboarding.
+
 It does not require a custom version of flashrom, just drag the compiled uf2 onto your Pico and you're ready to go.
 
 The default pin-out is:
 
 | GPIO | Pico Pin | Function |
 |------|----------|----------|
-| 1    |    2     | CS       |
-| 2    |    4     | SCK      |
-| 3    |    5     | MOSI     |
-| 4    |    6     | MISO     |
+| 16   |    21    | CS       |
+| 15   |    20    | SCK      |
+| 14   |    19    | MOSI     |
+| 17   |    22    | MISO     |
 
 ## Usage
 
